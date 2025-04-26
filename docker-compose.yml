@@ -1,0 +1,13 @@
+services:
+
+  anagrama:
+    container_name: anagrama
+    build: .
+    command: java -cp /app/classes org.anagrama.Anagrama abc
+
+  anagrama-test:
+    container_name: anagrama-test
+    build:
+      context: .
+      target: build
+    command: mvn test
