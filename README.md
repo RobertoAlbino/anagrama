@@ -45,5 +45,10 @@ $ docker compose up
 
 ---
 
+## 🔄 Integração Contínua (GitHub Actions)
+Este repositório possui um workflow **CI** em `.github/workflows/ci.yml` que executa automaticamente a suíte de testes JUnit 5 em cada push request para a branch `master`.
+
+
+
 
 
