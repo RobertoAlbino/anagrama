@@ -24,8 +24,6 @@ Anagrama/
 | **Docker Compose** | 2.x (opcional) |
 ---
 
-## 🚀 Build & Test com Maven
-
 ## ▶️ Rodando local
 ```bash
 $ mvn clean package -DskipTests && java -cp target/classes org.anagrama.Anagrama abc
